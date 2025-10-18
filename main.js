@@ -15,8 +15,8 @@ $(document).ready(function() {
         }
     }
     */
-   var text = new PointText(150, 200);
-   TextDecoderStream.justification = 'center';
+   var text = new PointText(200, 200);
+   text.justification = 'center';
    text.fillColor = 'White';
    text.fontSize = 20;
    text.content = 'hello world';
