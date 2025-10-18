@@ -4,8 +4,8 @@ $(document).ready(function() {
     paper.install(window);
     paper.setup(document.getElementById('mainCanvas'));
     //TODO
-    //var c = Shape.Circle(25, 25, 25);
-    //c.fillColor = 'green';
+    var c = Shape.Circle(200, 200, 80);
+    c.fillColor = 'black';
     /*
     var c;
     for (var x = 25; x < 400; x+=50) {
@@ -15,6 +15,11 @@ $(document).ready(function() {
         }
     }
     */
+   var text = new PointText(150, 200);
+   TextDecoderStream.justification = 'center';
+   text.fillColor = 'White';
+   text.fontSize = 20;
+   text.content = 'hello world';
     var tool = new Tool();
     tool.onMouseDown = function(event){
         //var c = Shape.Circle(event.point.x, event.point.y, 20);
