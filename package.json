@@ -1,0 +1,27 @@
+{
+  "name": "learningjavascript",
+  "version": "1.0.0",
+  "description": "= Learning Javascript, 3rd Edition == Chapter 2: Javascript Development Tools",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicchui/learningjavascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicchui/learningjavascript/issues"
+  },
+  "homepage": "https://github.com/vicchui/learningjavascript#readme",
+  "dependencies": {
+    "underscore": "^1.13.7"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^5.0.1",
+    "gulp-babel": "^8.0.0"
+  }
+}
